@@ -14,3 +14,26 @@ console.log("After");
     // Before
     // After
     // Hello Mayank
+
+setTimeout(() => {
+    console.log("Hello World")
+}, 10000)
+
+for(let i = 0 ; i < 10; i++) {
+    console.log(i)
+}
+
+// Output - 
+    // Before
+    // After
+    // 1
+    // 2
+    // 3
+    // 4
+    // 5
+    // 6
+    // 7
+    // 8
+    // 9
+    // Hello Mayank
+    // Hello World

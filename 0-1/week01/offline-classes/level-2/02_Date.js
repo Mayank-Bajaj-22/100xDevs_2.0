@@ -21,8 +21,11 @@ function dateMethods() {
   console.log("Time in milliseconds since 1970:", currentDate.getTime());
 
   const newDate = new Date(2023, 8, 15); // Creating a new date
-  console.log("New Date:", newDate);
+  console.log("New Date:", newDate.toLocaleDateString());
 }
 
 // Example Usage for Date Methods
 dateMethods();
+
+const data = new Date();
+console.log(data.getTime())

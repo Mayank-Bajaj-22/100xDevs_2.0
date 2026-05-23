@@ -8,8 +8,9 @@ fetch('https://randomuser.me/api')
     })
     .then(data => {
         console.log(data);
-        // console.log(data.results[0].name);
-        // console.log(data.results[0].location);
+        console.log(data.results[0].name);
+        console.log(data.results[0].location.street);
+        console.log(data.results[0].email);
     })
     .catch(error => {
         console.log('Error:', error);

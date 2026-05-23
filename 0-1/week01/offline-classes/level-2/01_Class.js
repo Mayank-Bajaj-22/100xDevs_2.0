@@ -12,5 +12,5 @@ const dog = new Animal("Dog", 4);
 console.log(dog.describe());  // Output: Dog has 4 legs
 
 const cat = new Animal("Cat", 4);
-console.log(cat.describe());  // Output: Dog has 4 legs
+console.log(cat.describe());  // Output: Cat has 4 legs
 
